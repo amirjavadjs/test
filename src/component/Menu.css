@@ -1,0 +1,100 @@
+.header{
+    color: white ;
+    background-color: rgb(81, 184, 81);
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    border-radius: 20px;
+    margin: 10px 10px;
+    position: relative;
+}
+.header img{
+    width: 120px;
+    height: 120px;
+}
+
+.list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.list li{
+    margin:0px 40px;
+}
+
+.call{
+    display: flex;
+    justify-content: space-around;
+}
+
+.instagram ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.instagram li{
+    margin-right: 10px;
+    
+}
+
+.call span {
+    font-size: 1.5rem;
+}
+.berger span{
+    font-size: 2rem;
+    margin: 10px;
+    display: none;
+}
+.logo2 {
+    display: none;
+}
+.calli{
+    font-size: 1.5rem;
+}
+.phon{
+    display: none;
+}
+/* media query */
+@media (max-width: 1200px) {
+    .logo img{
+        display: none;
+    }
+    .logo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .berger span{
+        display: flex;
+    }
+}
+@media (min-width: 1200px) {
+  .x{
+      display: none;
+  }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 576px) {
+    
+.number,.calli{
+ display: none;   
+}
+.phon{
+    display: flex;
+}
+.instagram{
+    position: relative;
+    right: 30px;
+}
+}
+
+@media (min-width: 768px) {}
+
+
+
+
+
+
+/* media query */
