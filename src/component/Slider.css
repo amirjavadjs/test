@@ -1,0 +1,13 @@
+.one img{
+    background-color: red;
+    border-radius: 20px;
+    height:500px;
+}
+.one{
+    margin:10px 10px;
+}
+.one h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
