@@ -110,7 +110,6 @@ border-radius: 10px;
                 <div className="berger">
                 <span onClick={this.show}> <CgMenu/></span>
                 </div>
-
             </div>   
             </>
         )
