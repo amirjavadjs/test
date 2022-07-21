@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    color: darkgrey;
+    font-size: 13px;
+    
+}
+
+.card-1 button{
+    background-color:#ED0080;
+    border: 0px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: #ED0080;
+    box-shadow: 
+    0 0 25px    #ED0080,
+    0 0 25px   #923092 ;
+}
+
+.card-1 img{
+    width: 320px;
+    height: 333px;
+    margin-left: -1px;
+    margin-top: -1px;
+    }

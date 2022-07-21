@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 import logo from '../img/logo.png'
 import  './Menu.css'
 import {BiPhoneCall} from 'react-icons/bi'
-import {AiFillInstagram} from 'react-icons/ai'
+import {BiUserCircle} from 'react-icons/bi'
+import {BiLogInCircle} from 'react-icons/bi'
+import {BsArrowLeft} from 'react-icons/bs'
+import {IoMdGitNetwork} from 'react-icons/bi'
+import {AiFillInstagram} from 'react-icons/ai'                       
 import {BsTelegram} from 'react-icons/bs'
 import {RiWhatsappFill} from 'react-icons/ri'
 import {TbArrowsMaximize} from 'react-icons/tb'
@@ -37,13 +41,14 @@ export default class Menu extends Component {
         const DIV =styled.div`
         @media (max-width: 1200px) {
              ul{
+                 z-index:15;
                 position: absolute;
                 top: 0px;
                 right: 0px;
     display:${this.state.open ? "flex" : "none"};
+  
     transition: 0.3 all ;
-
-                background-color:#ccc;
+    background:rgb(23, 30, 32);
                 flex-direction: column;
                 width: 300px;
                 height: 100vh;
@@ -53,9 +58,7 @@ export default class Menu extends Component {
           
             li{
                 text-align:center;
-             
-                background-color:#000;
-    width: 100px;
+                background-color:#ED0080;width: 100px;
                 
 padding: 5px 5px;
 border-radius: 10px;
@@ -80,6 +83,7 @@ border-radius: 10px;
                    <div className="instagram">
                         <ul>
                             <li><span> <AiFillInstagram/></span> </li>
+                            {/* <li><span> <BiLogInCircle/></span> </li> */}
                             <li><span> <BsTelegram/></span> </li>
                             <li><span> <RiWhatsappFill/></span> </li>
                             <li className="phon"><span> <BiPhoneCall /></span> </li>

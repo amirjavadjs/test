@@ -7,6 +7,13 @@
       /* IE6-8 */ url("./font/Vazir-Light.ttf") format("ttf"); /* Chrome36+, Opera24+*/
   }
 
+
   *{
       font-family: Vazir;
+      margin: 0px;
+      padding: 0px;
   }
+body{
+    background: linear-gradient(112.36deg,#324C54 0.76%,#171E20 36.31%,#171E20 53.27%,#41293A 99.38%);
+width: auto;
+}

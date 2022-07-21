@@ -1,0 +1,52 @@
+.content{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn1{
+    margin: 20px;
+    border: 0px;
+    outline: 0px;
+    background-color: rgba(255,255,255,.1);
+    padding: 13px 40px;
+    border-radius: 15px;
+    color:#fff;
+}
+.btn2{
+    margin: 20px;
+    border: 0px;
+    outline: 0px;
+    background-color: #ed00ed;
+    padding: 13px 60px;
+    border-radius: 15px;
+    color:#fff;
+}
+
+.list1{
+    margin-top: 20px;
+    list-style: none;
+    line-height: 30px;
+    direction: rtl;
+}
+
+
+@media(max-width:480px){
+.list1{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.btn2{
+    padding: 10px 10px;
+}
+.text{
+    font-size: 13px;
+}
+.mtn{
+    font-size: 12px;
+    line-height: 30px;
+}
+}

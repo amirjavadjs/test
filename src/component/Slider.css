@@ -1,10 +1,14 @@
 .one img{
-    background-color: red;
     border-radius: 20px;
-    height:500px;
+    height:400px;
+   
+    border: 1px solid #ed0080;
 }
 .one{
-    margin:10px 10px;
+    margin:20px 20px;
+    box-shadow: 0 0 20px rgb(237 0 128 / 50%);
+    border-radius: 20px;
+    
 }
 .one h1{
     display: flex;

@@ -1,0 +1,14 @@
+.content{
+    background-color: #343a40!important;
+    padding:30px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid #ffffffa1;
+}
+h2{
+    text-align: center;
+}
+
+.continer{
+    margin: 10px 10px;
+}
