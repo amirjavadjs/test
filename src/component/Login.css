@@ -1,0 +1,43 @@
+.in{
+    display: flex;
+    flex-direction: column;
+}
+.img-{
+    position: relative;
+}
+ .input-01{
+    padding:12px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    position: absolute;
+    top: 363px;
+    right: 560px;
+    direction: rtl;
+}
+
+.input-02{
+    padding:12px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    position: absolute;
+    top: 421px;
+    right: 560px;
+    direction: rtl;
+}
+
+input::placeholder{
+    color:black;
+}
+.button-11{
+    padding: 15px;
+    width: 150px;
+    position: absolute;
+    top: 489px;
+    right: 595px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(97, 97, 221);
+    color: #fff;
+}

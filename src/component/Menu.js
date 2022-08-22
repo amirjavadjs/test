@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import logo from '../img/logo.png'
 import  './Menu.css'
+import { Link } from 'react-router-dom'
 import {BiPhoneCall} from 'react-icons/bi'
 import {BiUserCircle} from 'react-icons/bi'
 import {BiLogInCircle} from 'react-icons/bi'
@@ -41,14 +42,15 @@ export default class Menu extends Component {
         const DIV =styled.div`
         @media (max-width: 1200px) {
              ul{
-                 z-index:15;
+                 z-index:20;
                 position: absolute;
                 top: 0px;
                 right: 0px;
     display:${this.state.open ? "flex" : "none"};
   
     transition: 0.3 all ;
-    background:rgb(23, 30, 32);
+    background:#000;
+    z-index:25;
                 flex-direction: column;
                 width: 300px;
                 height: 100vh;
@@ -96,11 +98,12 @@ border-radius: 10px;
                  <DIV className="list">
                      <ul>
                          <h1 className="x"  onClick={this.noshow} style={{color:"#FFF  "}}><TbArrowsMaximize/></h1>
-                         <li>خانه</li>
-                         <li>شهر ها</li>
-                         <li>ثبت نام</li>
-                         <li>درباره ما</li>
-                         <li>تماس با</li>
+<li><Link className="text-link" to="/Aboutus">درباره ما</Link></li>
+<li><Link className="text-link" to="/call">تماس با ما</Link></li>
+<li><Link className="text-link" to="/sab">ثبت نام </Link></li>
+<li><Link className="text-link" to="/map">شهر ها</Link></li>
+<li><Link className="text-link" to="/">خانه</Link></li>
+                       
                      </ul>
                  </DIV>
 

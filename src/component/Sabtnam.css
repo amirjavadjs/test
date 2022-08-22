@@ -1,0 +1,72 @@
+.text---{
+    direction: rtl;
+    text-align: center;
+    color: #fff;
+    font-size:3rem;
+    line-height: 80px;
+    border-radius: 20px;
+}
+@media (max-width: 900px){
+
+    .text---{
+        font-size: 1.5rem;
+     
+        line-height: 40px;
+    }
+}
+
+.card-name{
+    box-shadow: 8px 8px 16px #c4c4c4,-8px -8px 16px #f2f2f2;
+}
+
+.form-1{
+    background-color: rgba(255,255,255,.1);
+    border-radius: 20px 40px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px rgb(237 0 128 / 50%);
+    
+    
+        
+}
+
+.form-1 h6{
+    font-size: 1.5rem;
+}
+.text-form{
+    background-color: rgba(255,255,255,.1);
+color: beige;
+direction: rtl;
+text-align: center;
+border-radius: 10px;
+box-shadow:0 0 10px #ccc,0 0 10px #cccc ;
+}
+
+.section-form{
+    background-color: rgba(255,255,255,.1);
+    border-radius: 1px solid #fff;
+    color: beige;
+    direction: rtl;
+    border-radius: 20px 40PX;
+    box-shadow:0 0 10px #ccc,0 0 10px #cccc ;
+}
+
+.text-form-2{
+    background-color: rgba(255,255,255,.1);
+    border-radius: 1px solid #fff;
+    color: beige;
+    text-align: center;
+    border-radius: 20px 40px;
+    box-shadow:0 0 10px #ccc,0 0 10px #cccc ;
+    padding:20px;
+}
+
+.section-form2{
+    background-color: rgba(255,255,255,.1);
+    border-radius: 1px solid #fff;
+    color: beige;
+    direction: rtl;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:0 0 10px #ccc,0 0 10px #cccc ;
+    border-radius: 50%;
+}

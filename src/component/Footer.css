@@ -40,7 +40,10 @@
 }
 
 .btn2{
-    padding: 10px 10px;
+    padding:5px;
+}
+.btn1{
+    padding: 10px;
 }
 .text{
     font-size: 13px;

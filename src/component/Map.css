@@ -1,0 +1,60 @@
+.text-{
+    direction: rtl;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 80px;
+}
+
+.matn- p{
+    color: #fff;
+    margin: 10px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+@media (max-width: 900px){
+
+.text-{
+    font-size: 1.5rem;
+ 
+    line-height: 40px;
+}
+.comll{
+    display: none;
+}
+}
+
+.btn-map button{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 1px solid #ed0080;
+    background-color: #ed0080;
+    outline: 0px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.btn-map button:hover{
+    background-color: #ED0080;
+    box-shadow: 
+    0 0 25px    #ED0080,
+    0 0 25px   #923092 ;
+}
+
+.map-spurt {
+    background-color: rgba(255,255,255,.1);
+    border: 1px solid #ed0080;
+    box-shadow: 0 0 20px rgb(237 0 128 / 50%);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.text-p {
+    direction: rtl;
+}

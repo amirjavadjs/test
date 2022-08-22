@@ -57,6 +57,7 @@
 .calli{
     font-size: 1.5rem;
 }
+
 .phon{
     display: none;
 }
@@ -100,7 +101,10 @@
 @media (min-width: 768px) {}
 
 
-
+.text-link{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 
 

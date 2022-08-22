@@ -1,0 +1,59 @@
+.bu{
+    margin: 50px;
+}
+
+@media (max-width: 500px) {
+    .bu{
+        margin:10px;
+    }
+}
+
+.form-call{
+    background-color:rgba(255,255,255,.05);
+    margin: 10px 10px;
+    padding: 5px;
+    border-radius: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid #ffffffa1;
+}
+
+ input::placeholder{
+    text-align: right;
+    direction: rtl;
+    color: white;
+    
+}
+
+.input-aa{
+    border: 1px solid #ffffffa1;
+    background-color:rgba(255,255,255,.05);
+    border-radius: 20px 40px;
+    direction: rtl;
+    color: white;
+    outline:5px  yellow;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(237 0 128 / 50%);
+}
+
+.text-call-0{
+    border: 1px solid #ffffffa1;
+    background-color:rgba(255,255,255,.05);
+    border-radius: 20px 40px;
+    direction: rtl;
+    color: rgb(168, 158, 158);
+    outline:5px  yellow;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(237 0 128 / 50%);
+}
+
+.btn-0{
+    border: 1px solid #ffffffa1;
+    background-color:rgba(255,255,255,.05);
+    border-radius: 20px 40px;
+    direction: rtl;
+    color: rgb(168, 158, 158);
+    outline:5px  yellow;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(237 0 128 / 50%);}

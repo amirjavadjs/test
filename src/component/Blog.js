@@ -18,7 +18,7 @@ export default class Blog extends Component {
     <Card.Text>
       سلامتی در ورزش ونکات اسولی که در ورزش رزمی سمبکالا به آن  می پردازیم ...
     </Card.Text>
-    <Button className="btn">بیشتر بخوانید</Button>
+    <button className="btn1">بیشتر بخوانید</button>
   </Card.Body>
 </Card>
 </div>
@@ -31,7 +31,7 @@ export default class Blog extends Component {
     <Card.Text>
 رده ها در سمبکالاه به نوع جالب و زیبا است که در این مقاله به آن می پردازیم ...
     </Card.Text>
-    <Button className="btn">بیشتر بخوانید</Button>
+    <button className="btn1">بیشتر بخوانید</button>
   </Card.Body>
 </Card>
 </div>
@@ -44,7 +44,7 @@ export default class Blog extends Component {
     <Card.Text>
     در ورزش رزمی سمبکالاه ما از سلاح های زیادی استفاده میکنیم که در این ...
     </Card.Text>
-    <Button className="btn">بیشتر بخوانید</Button>
+    <button className="btn1">بیشتر بخوانید</button>
   </Card.Body>
 </Card>
 </div>
