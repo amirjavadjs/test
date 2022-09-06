@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './Blog.css'
 import img3 from '../img/6.png'
 import img4 from '../img/7.webp'
-import img5 from '../img/8.webp'
+import img5 from '../img/6.png'
 import {Card,Button,Row,Col,Container} from 'react-bootstrap'
 export default class Blog extends Component {
     render() {

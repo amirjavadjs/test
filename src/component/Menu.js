@@ -16,6 +16,7 @@ import {CgMenu} from 'react-icons/cg'
 
 
 export default class Menu extends Component {
+    
     constructor(){
         super();
         this.state={
@@ -36,9 +37,16 @@ export default class Menu extends Component {
          
     }
 
+    click=()=>{
+        this.setState({
+            open:!this.state.open,
+        })
+    }
+
     
 
     render() {
+        const{click}=this.props;
         const DIV =styled.div`
         @media (max-width: 1200px) {
              ul{
